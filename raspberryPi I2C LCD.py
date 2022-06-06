@@ -98,7 +98,7 @@ def printToLCD(text):
         # Draw Some Text
         #text = "Hello World!"
         
-        # Clear display.
+         # Clear display.
         oled.fill(0)
         oled.show()
 

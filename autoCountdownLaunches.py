@@ -46,7 +46,7 @@ def getLaunchList():
            # print('Next SpaceX Launch:')           
             #print(launch['launch_description']+"\n")          # The 'quicktext' gives similar info as 'launch_description' but also has a link to stream the launch live
             
-            # print(launch['quicktext']) 
+            print(launch['quicktext']) 
             quicktextDateString = launch['quicktext']
             launchDateString = quicktextDateString.split(' - ')[2]  #split the quicktext description to only return the launch date
             launchDate = launchDateString.split(' U')[0]
