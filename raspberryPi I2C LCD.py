@@ -97,6 +97,11 @@ def FAKEgetLaunchList():
 def printToLCD(text):
         # Draw Some Text
         #text = "Hello World!"
+        
+        # Clear display.
+        oled.fill(0)
+        oled.show()
+
         (font_width, font_height) = font.getsize(text)
         draw.text(
             (oled.width // 2 - font_width // 2, oled.height // 2 - font_height // 2),
