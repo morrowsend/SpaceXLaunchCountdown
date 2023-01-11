@@ -11,5 +11,7 @@ I have 2 versions. The first just does the countdown in the terminal. It checks 
 The second version is designed to work with an I2C LCD screen, though I don't have the hardware myself to test it. 
 
 Check out Barbara Morrow's project that incorporated this code:
+
 [Her fabacademy page](https://fabacademy.org/2022/labs/charlotte/students/barbara-morrow/projects/final-project/)
-[Final Video of her rocket working](https://www.youtube.com/watch?v=e95Uj2ZXOuw)
+
+Here's her final project [video of her rocket working](https://www.youtube.com/watch?v=e95Uj2ZXOuw)
